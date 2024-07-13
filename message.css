@@ -34,6 +34,7 @@ form h1 {
 }
 
 form textarea {
+    border: none;
     border-radius: 20px;
     padding: 20px 0;
     height: 300px;
@@ -43,6 +44,9 @@ form textarea {
     font-size: 30px;
     color: #618685;
     padding: 10px;
+    resize: none;
+    box-shadow: inset 15px 15px 35px -5px rgba(0, 0, 0, 0.1),
+                10px 10px 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 form button {
@@ -58,7 +62,7 @@ form button {
 }
 
 form textarea:focus {
-    border: 3px solid #d5f4e6;
+    outline: none;
 	color: #618685;
 	transition: all 0.3s ease;
 }
